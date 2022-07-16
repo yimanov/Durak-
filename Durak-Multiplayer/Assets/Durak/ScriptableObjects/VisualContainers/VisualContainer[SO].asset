@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb593bf3e2934304c880df45c2110331, type: 3}
+  m_Name: VisualContainer[SO]
+  m_EditorClassIdentifier: 
+  _backIcon: {fileID: 21300000, guid: 32d737cf982134012bb3115a56430389, type: 3}
+  _suitsIcons:
+  - Suit: 0
+    Icon: {fileID: 21300000, guid: 32385e7456dd54cb6bc17148099d9154, type: 3}
+  - Suit: 14
+    Icon: {fileID: 21300000, guid: c86badf3cd3494166a607ff42bac057a, type: 3}
+  - Suit: 28
+    Icon: {fileID: 6085999960213060233, guid: 054eee05173baca4db65234c811fc6f5, type: 3}
+  - Suit: 42
+    Icon: {fileID: 21300000, guid: 61a6086fec1d14016891ec1dd43e78d1, type: 3}
+  _clubs:
+  - Card: {fileID: 11400000, guid: c9a1d38ed4dc75c469e7d36042ea2e42, type: 2}
+    Priority: 6
+    Icon: {fileID: 21300000, guid: d327035be81564c44a950c03bc3018c6, type: 3}
+  - Card: {fileID: 11400000, guid: 729160bcf5e07694eaa0e1f1e2c2e045, type: 2}
+    Priority: 7
+    Icon: {fileID: 21300000, guid: 204f640f15d18384f86ca9a0c73fab19, type: 3}
+  - Card: {fileID: 11400000, guid: 6112f56cc3aa34346b6fd6b04875fede, type: 2}
+    Priority: 8
+    Icon: {fileID: 21300000, guid: 71eac48a7822f284dadb589ee80150ef, type: 3}
+  - Card: {fileID: 11400000, guid: cd8638212ed42a04aae264db5b0d36cd, type: 2}
+    Priority: 9
+    Icon: {fileID: 21300000, guid: 4704baf091f427649ab7b69ca562f635, type: 3}
+  - Card: {fileID: 11400000, guid: 1c52e255614cd0048bba29972fe70123, type: 2}
+    Priority: 10
+    Icon: {fileID: 21300000, guid: ecac1c4d70a922f49a895b613a3c15fa, type: 3}
+  - Card: {fileID: 11400000, guid: 24a0de76cf36f5e4385c9ec9bc5f5174, type: 2}
+    Priority: 11
+    Icon: {fileID: 21300000, guid: 7741c58ea65bb414b9b35e56ba6dd5a5, type: 3}
+  - Card: {fileID: 11400000, guid: 20b7f085acd69a84eb55fb5c8696b78c, type: 2}
+    Priority: 12
+    Icon: {fileID: 21300000, guid: e902dafee6877e8408b36d9240ff5be9, type: 3}
+  - Card: {fileID: 11400000, guid: 53f0095a52ece94458b8656adb87aa58, type: 2}
+    Priority: 13
+    Icon: {fileID: 21300000, guid: 64dc9c0ac503d7a45ab6939cb2112a5c, type: 3}
+  - Card: {fileID: 11400000, guid: 5d7d6d36e44655844be32610cbcbb220, type: 2}
+    Priority: 14
+    Icon: {fileID: 21300000, guid: 8b0c2bdc23756b148ae840d368fe99e4, type: 3}
+  _diamonds:
+  - Card: {fileID: 11400000, guid: 5f4db95e312003648b31584adfe743f3, type: 2}
+    Priority: 6
+    Icon: {fileID: 21300000, guid: a3e70aad4d5bb7a4b9273b4e109eaa1d, type: 3}
+  - Card: {fileID: 11400000, guid: b15962db7e674c14fb91ac72e48cfa9b, type: 2}
+    Priority: 7
+    Icon: {fileID: 21300000, guid: 12e490a3a8bd60d45a4b89b0f155a26f, type: 3}
+  - Card: {fileID: 11400000, guid: 641e8063beb7fa54ead4151c1af6b170, type: 2}
+    Priority: 8
+    Icon: {fileID: 21300000, guid: 18fe8b2418a79b7428a7b89b041f8700, type: 3}
+  - Card: {fileID: 11400000, guid: 116e61b22f7d5a248aa3800ce23df3e6, type: 2}
+    Priority: 9
+    Icon: {fileID: 21300000, guid: 4696e052219a2bb43989e29198635318, type: 3}
+  - Card: {fileID: 11400000, guid: cf59e876821c37d4bbd4ff8046d1e326, type: 2}
+    Priority: 10
+    Icon: {fileID: 21300000, guid: 6ee01f83371b8dc40957b4e5c7f5c60f, type: 3}
+  - Card: {fileID: 11400000, guid: 1e61089bf8bf05846b74125d817fcc69, type: 2}
+    Priority: 11
+    Icon: {fileID: 21300000, guid: 943994dd609c330498e6ee04e2051ae3, type: 3}
+  - Card: {fileID: 11400000, guid: 0c17bb51b223ab24f85f3e9610efae05, type: 2}
+    Priority: 12
+    Icon: {fileID: 21300000, guid: 10553055888f74e4bb073739f6f0cbb1, type: 3}
+  - Card: {fileID: 11400000, guid: 6c38ccceaf82b9b4e9984feeb09e426c, type: 2}
+    Priority: 13
+    Icon: {fileID: 21300000, guid: 1e2cfa911abe73645b2eafa6947847f3, type: 3}
+  - Card: {fileID: 11400000, guid: a556d41876d6e114f81f47af35f2810d, type: 2}
+    Priority: 14
+    Icon: {fileID: 21300000, guid: c91af539b3a75614fb25a5ba6111e073, type: 3}
+  _hearts:
+  - Card: {fileID: 11400000, guid: a9993f94fbd0e6e4393b08bfe718ba1e, type: 2}
+    Priority: 6
+    Icon: {fileID: 21300000, guid: a004ed3f1a56d1c4a944f68b9b9ec122, type: 3}
+  - Card: {fileID: 11400000, guid: d561d490767ff78488d3fd319f702e01, type: 2}
+    Priority: 7
+    Icon: {fileID: 21300000, guid: aa460604c02f9094fa163233629af61b, type: 3}
+  - Card: {fileID: 11400000, guid: 94357ba40dbe8ce458fef04df78b1dd8, type: 2}
+    Priority: 8
+    Icon: {fileID: 21300000, guid: 40d0c2cc69a2edc4c9ca7e353d873d5f, type: 3}
+  - Card: {fileID: 11400000, guid: 57ceeb7e16a267042b741b00074c4761, type: 2}
+    Priority: 9
+    Icon: {fileID: 21300000, guid: 84ca88ddbb20fca43ba102427fc2ed12, type: 3}
+  - Card: {fileID: 11400000, guid: 7c11bf893732cd24388a0f91feb6d08a, type: 2}
+    Priority: 10
+    Icon: {fileID: 21300000, guid: 97d9ab30e4105dd4589bcd1e1e1ba254, type: 3}
+  - Card: {fileID: 11400000, guid: 41ae9e084a1785b4fa37e4637bad2abb, type: 2}
+    Priority: 11
+    Icon: {fileID: 21300000, guid: 63ff4d3a7f2d73a4e8671194b98063e8, type: 3}
+  - Card: {fileID: 11400000, guid: 9219217f248c2804eb826cb873733576, type: 2}
+    Priority: 12
+    Icon: {fileID: 21300000, guid: 29b42d8356017bc4eb7677e296721217, type: 3}
+  - Card: {fileID: 11400000, guid: bf928d2f07f564243a583105f8e8a59f, type: 2}
+    Priority: 13
+    Icon: {fileID: 21300000, guid: 07b4f3d5c4ab5e746840ee0abf4cf026, type: 3}
+  - Card: {fileID: 11400000, guid: 5da936c609e9cf240b2384ec59014ec5, type: 2}
+    Priority: 14
+    Icon: {fileID: 21300000, guid: bb45cef218551da4d97dbde080c95087, type: 3}
+  _spades:
+  - Card: {fileID: 11400000, guid: e88dacb05408c6a46af4a05256445cb7, type: 2}
+    Priority: 6
+    Icon: {fileID: 21300000, guid: 2b4397135eff8b34293770fe57c9851b, type: 3}
+  - Card: {fileID: 11400000, guid: 9a613beacb4b97b4382da2bf4be51f35, type: 2}
+    Priority: 7
+    Icon: {fileID: 21300000, guid: af2729d8bca74cd459f47409e44c4379, type: 3}
+  - Card: {fileID: 11400000, guid: cde28680ca845f94fb68107c06789e5d, type: 2}
+    Priority: 8
+    Icon: {fileID: 21300000, guid: 95618ab8df9ba1644a57f4832126cc80, type: 3}
+  - Card: {fileID: 11400000, guid: edfe3a80de0e032438c295a5a62edd4a, type: 2}
+    Priority: 9
+    Icon: {fileID: 21300000, guid: e29cd97595a4238419333186ff170252, type: 3}
+  - Card: {fileID: 11400000, guid: ca4dfcd8bc76ce8408ad927c554462c2, type: 2}
+    Priority: 10
+    Icon: {fileID: 21300000, guid: 197add2f79f27c948827333608200434, type: 3}
+  - Card: {fileID: 11400000, guid: 0d60acff52e25b44da6cfd710d057c3e, type: 2}
+    Priority: 11
+    Icon: {fileID: 21300000, guid: 9e484d6d87aa8d54c9ac0cc25c7ac845, type: 3}
+  - Card: {fileID: 11400000, guid: 41627ffcf6d75be46a8abcffdea139d5, type: 2}
+    Priority: 12
+    Icon: {fileID: 21300000, guid: 4a64a27015dd98d459ba93a4870376fa, type: 3}
+  - Card: {fileID: 11400000, guid: a873e0301fa8ff147a3cadab05b0b780, type: 2}
+    Priority: 13
+    Icon: {fileID: 21300000, guid: b0e52a41e0151d34b850d49cff429dcc, type: 3}
+  - Card: {fileID: 11400000, guid: 2e45e19f451266e47bf56c33e98d2250, type: 2}
+    Priority: 14
+    Icon: {fileID: 21300000, guid: 88ea9e929798bb2499bc50877c9cb886, type: 3}
